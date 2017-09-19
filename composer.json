@@ -1,0 +1,24 @@
+{
+  "name": "olegvtimchenko/telegram-bot-api-bundle",
+  "type": "symfony-bundle",
+  "description": "A simple wrapper for telegram-bot-api.",
+  "keywords": ["telegram", "bot", "api", "telegram-bot-api", "php", "symfony", "symfony2", "symfony3"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleg Timchenko",
+      "email": "evo9.81@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+
+    "symfony/framework-bundle": ">=2.7",
+
+    "telegram-bot/api": "^2.2.6"
+  },
+  "autoload": {
+    "psr-4": { "EVO\\TelegramBotApiBundle\\": "" }
+  }
+}
